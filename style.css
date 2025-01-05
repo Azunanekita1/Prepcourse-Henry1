@@ -1,0 +1,37 @@
+body {
+   
+        background-color:yellow;
+    }
+
+#principal {
+        font-size: 2.5em;
+        color: red;
+    }
+#borde {
+    border: 5px solid black;
+    width: 30vw;
+    margin: auto;
+    padding: 1em;
+}
+
+.miTexto {
+    font-size: 1.5em;
+    color: cyan;
+}
+
+.logo {
+    width:300px;
+}
+
+.cuadrito {
+    border: 5px solid black;
+    width: fit-content;
+    padding: 1px 1em 0px 1em;
+    border-radius: 10%;
+    transition: 2s;
+    
+}
+.cuadrito:hover{
+    background-color: white;
+}
+
