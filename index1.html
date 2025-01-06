@@ -3,7 +3,7 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Sitio Prueba Henry</title>
+      <title>Mi primer Pagina LAMBORGHINI</title>
       <link rel="stylesheet" href="./reset.css"/>
       <link rel="stylesheet" type="text/css" href="./style.css"/>
    </head>
@@ -15,50 +15,67 @@
             <p class="miTexto" id="principal">Pagina de Lamborghini </p>
          </div>    
       <h1 class="miTexto"> Lamborghini </h1>
-
-      <span> Inicio</span>
-      <span> Modelos</span>
-      <span> Contacto</span>
-   </header>
-   <main> 
-      <section> 
-      <!-- Contenido de la página va aquí-->
-       <h2 class="miTexto"> Lamborghini huracan performante </h2>
-       <article> 
-         <div> 
-       <p> El lamborghini fue creado en Italia</p>
-      </div>
-      <hr /> 
-      <div class="cuadrito">  
-      <img src="./lambo.jpg" class="logo" />
+      <div  id="container-botones" > 
+      <div class="color-botones">
+      <span class="botoncuadrito"> Inicio</span>
+      <span class="botoncuadrito"> Modelos</span>
+      <span class="botoncuadrito"> Contacto</span>
    </div>
+      </div>
+   </header>
+
+   <main> 
+    <section> 
+       <!--  Contenido de la página va aquí--->
+       <article> 
+       <h2 class="miTexto"> Lamborghini huracan performante </h2>
+       <p class="color-textos"> El lamborghini fue creado en Italia</p>
+      </article>
+      <hr />
+<article> 
+   <!--   reglas al contenedor osea al flexbox -->
+         <div  id="cuadrito-container" >  
+            <div class="cuadrito">  
+               <img src="./lambo.jpg" class="logo" />
+         
+            </div>
+            <div class="cuadrito">  
+               <img src="./lambo.jpg" class="logo" />
+         
+            </div>
+      </div>
+
+</article>
+<article>
+   <div class="color-textos">  
        <ol> 
          <li> Modelo </li>
          <li> lamborghini uracan </li>
          <li> performante </li>
        </ol>
+      </div>
       </article>
        <hr /> 
        <article> 
+         <div class="color-textos"> 
        <ul>
          <li>Urus </li>
          <li>Huracan </li>
          <li>Aventator </li>
        </ul>
-
+   </div>
       </article>
-      </section>
+  </section> 
 
       </main>
 
       <footer> 
-
+         <p class="color-textos"> enlace 1</p>
+      
+         <a href="./Formulario.html"> formulario </a>   
 
       </footer>
-      <p> enlace 1</p>
-      
-      <a href="./Formulario.html"> formulario </a>
-
+     
 
    </body>
 </html>
